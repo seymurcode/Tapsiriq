@@ -32,6 +32,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":network"))
+    implementation(project(":entities"))
+
     implementation(Libs.Hilt.hilt)
     kapt(Libs.Hilt.hiltKapt)
 

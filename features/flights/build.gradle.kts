@@ -29,9 +29,16 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
+    implementation(project(":entities"))
+    implementation(project(":data")) // data burada olmaması gerekli.... burdan sadece domain'e erişebilmeliyiz.
+
     implementation(Libs.Hilt.hilt)
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.6")
