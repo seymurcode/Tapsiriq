@@ -37,7 +37,9 @@ android {
 
 dependencies {
     implementation(project(":entities"))
-    implementation(project(":data")) // data burada olmaması gerekli.... burdan sadece domain'e erişebilmeliyiz.
+    implementation(project(":common"))
+    //implementation(project(":data")) // data burada olmaması gerekli.... burdan sadece domain'e erişebilmeliyiz.
+    implementation(project(":domain"))
 
     implementation(Libs.Hilt.hilt)
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.6")

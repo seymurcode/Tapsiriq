@@ -32,6 +32,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":data"))
+    implementation(project(":common"))
+    implementation(project(":entities"))
+
     implementation(Libs.Hilt.hilt)
     kapt(Libs.Hilt.hiltKapt)
 
