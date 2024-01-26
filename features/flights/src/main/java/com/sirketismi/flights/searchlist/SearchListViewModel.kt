@@ -3,6 +3,7 @@ package com.sirketismi.flights.searchlist
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.sirketismi.common.base.BaseViewModel
 import com.sirketismi.common.flowstate.Resource
 import com.sirketismi.common.flowstate.State
 import com.sirketismi.domain.mapper.SearchResponseToUIStateMapper
@@ -19,8 +20,7 @@ import javax.inject.Inject
 @HiltViewModel
 class SearchListViewModel @Inject constructor(
     val searchUseCase : SearchListUseCase,
-    private val mapper: SearchResponseToUIStateMapper) : ViewModel() {
-    val state : MutableStateFlow<State?> = MutableStateFlow(null)
+    private val mapper: SearchResponseToUIStateMapper) : BaseViewModel() {
     val data = MutableLiveData<FlightSearchUIState?>()
 
      suspend fun getFlights() {
