@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sirketismi.azretrofitcase"
+    namespace = "com.booking.azretrofitcase"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sirketismi.azretrofitcase"
+        applicationId = "com.booking.azretrofitcase"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

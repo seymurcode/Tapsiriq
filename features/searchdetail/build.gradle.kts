@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sirketismi.searchdetail"
+    namespace = "com.booking.searchdetail"
     compileSdk = 34
 
     defaultConfig {

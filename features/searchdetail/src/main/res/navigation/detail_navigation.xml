@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/searchDetailFragment"
-        android:name="com.sirketismi.searchdetail.SearchDetailFragment"
+        android:name="com.booking.searchdetail.SearchDetailFragment"
         android:label="SearchDetailFragment" >
         <argument
             android:name="itemId"

@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.sirketismi.domain"
+    namespace = "com.booking.domain"
     compileSdk = 34
 
     defaultConfig {
