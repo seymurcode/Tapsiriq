@@ -3,6 +3,7 @@ package com.booking.network.di
 import com.google.gson.Gson
 import com.booking.network.api.ApiService
 import com.booking.network.api.CampaignService
+import com.booking.network.api.HotelsService
 import com.booking.network.interceptors.TokenInjector
 import dagger.Module
 import dagger.Provides
@@ -92,6 +93,38 @@ object DataLayerModule {
 
         return client.build()
     }
+
+
+    @Provides
+    @Singleton
+    @HotelsAnnotation
+    fun provideHotelsApiClient(gson: Gson, @HotelsAnnotation client: OkHttpClient): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl("https://65a7624794c2c5762da692dd.mockapi.io/api/v1/")
+            .addConverterFactory(GsonConverterFactory.create(gson))
+            .client(client)
+            .build()
+    }
+
+    @Provides
+    @Singleton
+    fun provideHotelsService(@HotelsAnnotation retrofit: Retrofit) : HotelsService {
+        return retrofit.create(HotelsService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    @HotelsAnnotation
+    fun provideHotelsOkHttpsClient(): OkHttpClient {
+        val client = OkHttpClient.Builder()
+
+        client
+            .connectTimeout(60, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS)
+            .writeTimeout(60, TimeUnit.SECONDS)
+
+        return client.build()
+    }
 }
 
 @Qualifier
@@ -101,3 +134,6 @@ annotation class FlightAnnotation
 @Qualifier
 @Retention(AnnotationRetention.RUNTIME)
 annotation class CampaignAnnotation
+@Qualifier
+@Retention(AnnotationRetention.RUNTIME)
+annotation class HotelsAnnotation

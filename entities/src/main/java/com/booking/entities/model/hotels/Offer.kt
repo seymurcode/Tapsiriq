@@ -1,22 +1,26 @@
 package com.booking.entities.model.hotels
 
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@Parcelize
 data class Offer(
-    val alerts: List<Any>,
+    val alerts: List<String>,
     val allotment: Int,
-    val buttonMessages: List<Any>,
-    val cancellationRules: List<Any>,
-    val comment: Any,
+    val buttonMessages: List<String>,
+    val cancellationRules: List<String>,
+    val comment: String, 
     val concept: Concept,
     val discountFrom: Int,
-    val discountTags: Any,
+    val discountTags: String, 
     val displayedCurrency: String,
-    val freeChildAgeHotelDetail: List<Any>,
-    val freeChildAgeRange: Any,
+    val freeChildAgeHotelDetail: List<String>,
+    val freeChildAgeRange: String, 
     val guest: Guest,
     val hasCancellationRule: Boolean,
     val hash: String,
     val hotelOfferBonusScRate: HotelOfferBonusScRate,
-    val information: List<Any>,
+    val information: List<String>,
     val isCheapestOffer: Boolean,
     val isMemberOnlyDeal: Boolean,
     val isPossibleChange: Boolean,
@@ -27,9 +31,9 @@ data class Offer(
     val offerType: String,
     val payAtHotel: Boolean,
     val price: Int,
-    val priceBreakDowns: List<Any>,
+    val priceBreakDowns: List<String>,
     val provider: Int,
     val refundableExpireDate: RefundableExpireDate,
     val roomClass: RoomClass,
     val sourceOfferType: String
-)
+):Parcelable

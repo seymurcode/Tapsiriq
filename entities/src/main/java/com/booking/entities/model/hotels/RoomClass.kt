@@ -1,5 +1,9 @@
 package com.booking.entities.model.hotels
 
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@Parcelize
 data class RoomClass(
     val code: String,
     val description: String,
@@ -7,4 +11,4 @@ data class RoomClass(
     val `package`: Boolean,
     val promotion: Boolean,
     val refundable: Boolean
-)
+):Parcelable

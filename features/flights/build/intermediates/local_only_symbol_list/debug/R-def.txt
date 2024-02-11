@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id customComponent
+id flights_navigation
+id recylerView
+id searchListFragment
+id txt
+layout fragment_search_detail
+layout fragment_search_list
+layout list_item_flight
+navigation flights_navigation

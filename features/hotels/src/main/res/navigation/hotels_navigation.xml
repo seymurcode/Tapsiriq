@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hotels_navigation"
+    app:startDestination="@id/hotelListFragment">
+
+    <fragment
+        android:id="@+id/hotelListFragment"
+        android:name="com.booking.hotels.HotelListFragment"
+        android:label="SearchListFragment" >
+    </fragment>
+</navigation>

@@ -1,10 +1,14 @@
 package com.booking.entities.model.hotels
 
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@Parcelize
 data class Min(
     val code: String,
-    val count: Any,
+    val count: String, 
     val name: String,
     val position: Int,
     val type: String,
-    val value: Any
-)
+    val value: String
+):Parcelable

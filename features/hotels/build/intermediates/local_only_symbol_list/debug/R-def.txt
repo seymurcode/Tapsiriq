@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+drawable bed
+drawable crosshair
+drawable location
+id address
+id center_distance
+id day_count
+id hotelListFragment
+id hotels_navigation
+id imageView
+id imageView3
+id imageView34
+id imageView345
+id include_type
+id name
+id price
+id rating
+id rating_type
+id recylerView
+id room_type
+layout fragment_hotel_list
+layout fragment_hotels_detail
+layout list_item_hotels
+navigation hotels_navigation

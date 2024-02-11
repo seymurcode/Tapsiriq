@@ -39,6 +39,8 @@ dependencies {
     implementation(Libs.Hilt.hilt)
     kapt(Libs.Hilt.hiltKapt)
 
+    implementation("org.apache.commons:commons-lang3:3.12.0")
+
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")

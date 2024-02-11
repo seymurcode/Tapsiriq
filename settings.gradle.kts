@@ -15,7 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "AZRetrofitCase"
 include(":app")
-include(":features:account")
+//include(":features:account")
 include(":entities")
 include(":domain")
 include(":data")
@@ -23,3 +23,4 @@ include(":network")
 include(":common")
 include(":features:flights")
 include(":features:searchdetail")
+include(":features:hotels")

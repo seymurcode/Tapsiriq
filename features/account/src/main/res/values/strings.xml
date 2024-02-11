@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">NoteApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_save_title">Not Ekle</string>
+    <string name="error_login_title">Giriş yapılamadı!</string>
+    <string name="error_login_detail">Lütfen bilgileri kontrol edin.</string>
+    <string name="success">Başarılı</string>
+    <string name="success_register">Kayıt işlemi başarılı yapıldı</string>
+    <string name="error">Hata</string>
+    <string name="note_name">Not adı</string>
+    <string name="new_note">Yeni Not</string>
+    <string name="note_detail">Not tanımı</string>
+    <string name="note_date">Not tarihi</string>
+    <string name="tag">Tag</string>
+    <string name="google_client_id">506732945301-81iabk2rqd52st71fcr4a7luedk8ufn2.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">1069265194405889</string>
+    <string name="facebook_client_token">364d4329ea6b5da2f3385ce5c130107c</string>
+
+    <string name="fb_login_protocol_scheme">fb1549903125862873</string>
+
+</resources>

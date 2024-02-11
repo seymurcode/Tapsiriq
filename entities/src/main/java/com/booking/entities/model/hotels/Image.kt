@@ -1,7 +1,10 @@
 package com.booking.entities.model.hotels
 
-data class Image(
-    val name: Any,
+import kotlinx.parcelize.Parcelize
+import android.os.Parcelable
+
+@Parcelize data class Image(
+    val name: String,
     val type: String,
     val url: String
-)
+):Parcelable

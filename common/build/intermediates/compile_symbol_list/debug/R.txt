@@ -1,0 +1,1 @@
+int layout dialog_loading 0x0

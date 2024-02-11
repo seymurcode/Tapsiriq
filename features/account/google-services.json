@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391543313209",
+    "project_id": "tapsiriq-db141",
+    "storage_bucket": "tapsiriq-db141.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391543313209:android:35593ea77fb744da03cee8",
+        "android_client_info": {
+          "package_name": "com.booking.account"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDU3KV-EB2vXPYNOA7FAfyBVkXGblohto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id detail_navigation
+id layout_user
+id searchDetailFragment
+id txtName
+id txtPhone
+id txtSurname
+layout fragment_search_detail
+layout layout_user
+navigation detail_navigation

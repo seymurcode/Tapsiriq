@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorBlue">#0000FF</color>
+    <color name="colorBrown">#8B4513</color>
+    <color name="colorButtonNormal">#2196F3</color>
+    <color name="colorButtonPressed">#1565C0</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="colorGreen">#00FF00</color>
+    <color name="colorHint">#AAAAAA</color>
+    <color name="colorOrange">#FFA500</color>
+    <color name="colorPink">#FFC0CB</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorPurple">#800080</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorText">#333333</color>
+    <color name="colorYellow">#FFFF00</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">NoteApp</string>
+    <string name="btn_save_title">Not Ekle</string>
+    <string name="error">Hata</string>
+    <string name="error_login_detail">Lütfen bilgileri kontrol edin.</string>
+    <string name="error_login_title">Giriş yapılamadı!</string>
+    <string name="facebook_app_id">1069265194405889</string>
+    <string name="facebook_client_token">364d4329ea6b5da2f3385ce5c130107c</string>
+    <string name="fb_login_protocol_scheme">fb1549903125862873</string>
+    <string name="google_client_id">506732945301-81iabk2rqd52st71fcr4a7luedk8ufn2.apps.googleusercontent.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_note">Yeni Not</string>
+    <string name="note_date">Not tarihi</string>
+    <string name="note_detail">Not tanımı</string>
+    <string name="note_name">Not adı</string>
+    <string name="success">Başarılı</string>
+    <string name="success_register">Kayıt işlemi başarılı yapıldı</string>
+    <string name="tag">Tag</string>
+    <style name="Base.Theme.Account" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="BottomSheeDialogStyle" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="ElevatedButtonStyle" parent="Widget.Material3.Button.ElevatedButton">
+        
+        <item name="backgroundTint">@color/colorBlue</item>
+
+        
+        <item name="android:textColor">#FFFFFF</item>
+
+        
+        <item name="elevationOverlayColor">@color/colorButtonPressed</item>
+
+        
+        
+        
+        
+    </style>
+    <style name="Theme.Account" parent="Base.Theme.Account">
+        <item name="bottomSheetDialogTheme">@style/BottomSheeDialogStyle</item>
+    </style>
+</resources>

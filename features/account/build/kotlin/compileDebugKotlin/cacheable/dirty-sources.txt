@@ -1,0 +1,4 @@
+/Users/seymuraskarov/StudioProjects/Tapsiriq/features/account/src/main/java/com/booking/account/login/LoginFragment.kt
+/Users/seymuraskarov/StudioProjects/Tapsiriq/features/account/src/main/java/com/booking/account/register/RegisterFragment.kt
+/Users/seymuraskarov/StudioProjects/Tapsiriq/features/account/src/main/java/com/booking/account/login/LoginViewModel.kt
+/Users/seymuraskarov/StudioProjects/Tapsiriq/features/account/src/main/java/com/booking/account/register/RegisterViewModel.kt

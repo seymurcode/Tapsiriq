@@ -8,11 +8,11 @@ plugins {
 }
 
 android {
-    namespace = "com.booking.azretrofitcase"
+    namespace = "com.booking.homework"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.booking.azretrofitcase"
+        applicationId = "com.booking.homework"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,9 +37,10 @@ android {
 }
 
 dependencies {
-    implementation(project(":features:account"))
+//    implementation(project(":features:account"))
     implementation(project(":features:flights"))
     implementation(project(":features:searchdetail"))
+    implementation(project(":features:hotels"))
 
     implementation(Libs.UI.material)
     implementation(Libs.Hilt.hilt)

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "detail_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "az"
+        ],
+        "port": -1,
+        "path": "/",
+        "query": "itemId\u003d.*",
+        "sourceFilePosition": {
+          "mSourceFile": {},
+          "mSourcePosition": {
+            "mStartLine": -1,
+            "mStartColumn": -1,
+            "mStartOffset": -1,
+            "mEndLine": -1,
+            "mEndColumn": -1,
+            "mEndOffset": -1
+          }
+        },
+        "isAutoVerify": false,
+        "action": "android.intent.action.VIEW"
+      }
+    ]
+  }
+]
