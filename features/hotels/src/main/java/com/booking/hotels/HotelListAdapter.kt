@@ -61,9 +61,9 @@ class HotelListViewHolder(private val binding : ListItemHotelsBinding, val onCli
         binding.includeType.text = viewModel.include_type
         binding.centerDistance.text = viewModel.center_distance
         binding.dayCount.text = viewModel.day_count
-        binding.root.setOnClickListener {
+        /*binding.root.setOnClickListener {
             onClickItem(viewModel)
-        }
+        }*/
         Glide
             .with(context)
             .load(viewModel.image_link)
