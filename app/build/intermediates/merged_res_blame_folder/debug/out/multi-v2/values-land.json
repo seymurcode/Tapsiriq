@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.booking.homework.app-mergeDebugResources-54:/values-land/values-land.xml",
+            "outputFile": "com.booking.homework.app-mergeDebugResources-61:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/2573b07cdad737b63f095283d49cdbfe/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/e1d394484b60cdcb8db635c388d0e80c/transformed/appcompat-1.6.1/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/cddc31ec29bf4eb2b08499f2ea60cc32/transformed/material-1.11.0/res/values-land/values-land.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/6002d7af4a0475045f8b0667e16da604/transformed/material-1.11.0/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,26,35,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

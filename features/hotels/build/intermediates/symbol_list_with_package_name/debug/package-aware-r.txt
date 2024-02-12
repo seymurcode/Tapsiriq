@@ -1,7 +1,4 @@
 com.booking.hotels
-drawable bed
-drawable crosshair
-drawable location
 id address
 id center_distance
 id day_count

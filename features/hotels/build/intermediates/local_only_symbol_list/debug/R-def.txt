@@ -1,8 +1,5 @@
 R_DEF: Internal format may change without notice
 local
-drawable bed
-drawable crosshair
-drawable location
 id address
 id center_distance
 id day_count

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.booking.homework.app-mergeDebugResources-54:/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "com.booking.homework.app-mergeDebugResources-61:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/2573b07cdad737b63f095283d49cdbfe/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/e1d394484b60cdcb8db635c388d0e80c/transformed/appcompat-1.6.1/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

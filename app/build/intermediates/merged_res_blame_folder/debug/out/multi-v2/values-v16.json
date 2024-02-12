@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.booking.homework.app-mergeDebugResources-54:/values-v16/values-v16.xml",
+            "outputFile": "com.booking.homework.app-mergeDebugResources-61:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/1fe14fcd7fea9837aab08a495dd652fc/transformed/core-1.12.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/2573b07cdad737b63f095283d49cdbfe/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/e1d394484b60cdcb8db635c388d0e80c/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/de9fed48b21fa1b76399c3bb15265298/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.booking.homework.app-mergeDebugResources-54:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+            "outputFile": "com.booking.homework.app-mergeDebugResources-61:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/cddc31ec29bf4eb2b08499f2ea60cc32/transformed/material-1.11.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/6002d7af4a0475045f8b0667e16da604/transformed/material-1.11.0/res/values-w600dp-land-v13/values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

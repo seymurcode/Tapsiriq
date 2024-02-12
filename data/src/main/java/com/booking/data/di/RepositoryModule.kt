@@ -32,7 +32,7 @@ abstract class RepositoryModule {
     abstract fun providerHotelsRepository(repository: HotelsRepository) : HotelsRepositoryInterface
 
 
-    @Singleton
+/*    @Singleton
     @Provides
     fun provideFirestore() : FirebaseFirestore {
         return Firebase.firestore
@@ -42,7 +42,7 @@ abstract class RepositoryModule {
     @Provides
     fun provideAuthFirestore() : FirebaseAuth {
         return Firebase.auth
-    }
+    }*/
 
 
     @Binds

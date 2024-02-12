@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.booking.homework.app-mergeDebugResources-54:/values-v25/values-v25.xml",
+            "outputFile": "com.booking.homework.app-mergeDebugResources-61:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/2573b07cdad737b63f095283d49cdbfe/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "source": "/Users/seymuraskarov/.gradle/caches/transforms-3/e1d394484b60cdcb8db635c388d0e80c/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

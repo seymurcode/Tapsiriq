@@ -37,10 +37,8 @@ android {
 }
 
 dependencies {
-//    implementation(project(":features:account"))
-    implementation(project(":features:flights"))
-    implementation(project(":features:searchdetail"))
     implementation(project(":features:hotels"))
+    implementation(project(":assets"))
 
     implementation(Libs.UI.material)
     implementation(Libs.Hilt.hilt)
@@ -49,9 +47,10 @@ dependencies {
     implementation(Libs.Navigation.navigationUi)
     implementation(Libs.Navigation.navigationFragment)
 
-    implementation("androidx.core:core-ktx:1.12.0")
-    implementation("androidx.appcompat:appcompat:1.6.1")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation(Libs.AndroidDefaultLibs.core)
+    implementation(Libs.AndroidDefaultLibs.appCompat)
+    implementation(Libs.UI.constraintlayout)
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

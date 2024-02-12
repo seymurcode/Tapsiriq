@@ -2,7 +2,7 @@ package com.booking.homework
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.booking.azretrofitcase.R
+import com.booking.homework.R
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

@@ -2,8 +2,6 @@
   {
     "name": "app_navigation",
     "navigationXmlIds": [
-      "account_navigation",
-      "detail_navigation",
       "hotels_navigation"
     ],
     "deepLinks": []
